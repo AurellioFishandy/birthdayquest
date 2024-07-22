@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.content{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#title2{
+    font-size: 36px;
+}
+
+p,li{
+    text-align: justify;
+}
+
+#map {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
